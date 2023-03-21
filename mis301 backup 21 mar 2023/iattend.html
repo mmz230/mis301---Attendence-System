@@ -1,0 +1,53 @@
+<h1>Insert into Attendence Table</h1>
+<button onclick="window.location.href='index.php'"><a href="index.php">Go Back</a></button>
+
+
+<form action="iattend.php" method="POST">
+
+    
+<p>Student Name</p>
+<input type="text" name="studentname" />
+<br/><br/>
+
+<label for="grade">Grade</label>
+    <select name="grade">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+        <option value="11">11</option>
+        <option value="12">12</option>
+    </select>
+    <br/>
+
+<p>Date</p>
+<input type="date" name="date" />
+<br/>
+
+<p>Section</p>
+<input type="text" name="section" />
+<br/>
+
+<p>Subject</p>
+<input type="text" name="subject" />
+<br/><br/><br/>
+
+
+<label for="attendence">Attendence</label>
+    <select name="attendence">
+      <option value="p">Present</option>
+      <option value="l">Late</option>
+      <option value="a">Absent</option>
+    </select>
+    <br/>
+<br/>
+
+<input type="submit">
+
+</form>
